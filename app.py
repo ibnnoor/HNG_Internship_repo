@@ -14,7 +14,7 @@ def api():
   data = {
     "current_day": date.strftime("%A"),
     "utc_time": date.strftime("%H:%M:%S"),
-    "github_file_url": "",
+    "github_file_url": "https://github.com/ibnnoor/HNG_Internship_repo/blob/main/app.py",
     "github_repo_url": "https://github.com/ibnnoor/HNG_Internship_repo",
     "status_code": 200
   }
